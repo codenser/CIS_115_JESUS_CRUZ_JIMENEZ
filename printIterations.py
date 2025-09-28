@@ -1,0 +1,1 @@
+#this program uses a user-defined funtion to print iterations using for loops with a range
