@@ -2,7 +2,7 @@
 #the formula is e = mc^2
 
 def calculate_energy():
-    mass = float(input("enter mass in Kg: "))
+    mass = 3.0
     c = 2.99 * 10**8
     energy = mass * c**2
     return energy
