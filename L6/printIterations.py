@@ -6,7 +6,7 @@ def print_iterations():
     for loopCounter in range(val):
         print(f'The function call looped {loopCounter + 1} times')
 
-print_iterations() 
+print_iterations()
 
 
 
