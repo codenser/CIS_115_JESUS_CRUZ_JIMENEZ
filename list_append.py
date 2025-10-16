@@ -7,11 +7,11 @@ def append_to_list():
 
     user = input("Are you done? (y/n): ")
 
-    if user == 'y':
+    while user == 'y':
         print(the_list)
-    else: user == 'n'
-    item = input("enter item to add to list: ")
-    the_list.append(item)
+    if user == 'n':
+        item = input("Enter item to add to list: ")
+        the_list.append(item)
     print(the_list)
 
     
