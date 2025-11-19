@@ -2,16 +2,37 @@
 
 #create a catalog of products with prices with list's in a dictionary
 def create_catalog():
-    catalog = {
-    "Usb Drive(128 GB)" : 12.00,
-    "Mac Book Pro(15 inch)" : 2900.00,
-    "Arduino 1010(with blue tooth)" : 48.00,
-    "Ring Camera(wireless)" : 156.00,
-    "Smart TV(TCL 70 inch)" :359.00
+    catalog = [
+
+    {
+    "num" : "1"
+    "item" : "Usb Drive(128 GB)"
+    "price" : "$12.00"
+    },
+
+    {"num" : "2"
+    "item" : "Mac Book Pro(15 inch)"
+    "price" : "$2900.00"
+    },
+    {
+    "num" : "3"
+    "item" : "Arduino 1010(with blue tooth)"
+    "price" : "$48.00"
+   },
+    {
+    "num":"4"
+    "item" : "Ring Camera(wireless)"
+    "price" : "$156.00"
+    },
+    {
+    "num" : "5"
+    "item" : "Smart TV(TCL 70 inch)"
+    "price" : "$359.00"
     }
+    ]
     #I will print in a correct product catalog format
     for key, value in catalog.items():
-        print(() ,f"{key:<30}   |   ${value:.2f}")
+        print(num
 
 #building the structure for the layout of the catalog
 print("-" * 75)
